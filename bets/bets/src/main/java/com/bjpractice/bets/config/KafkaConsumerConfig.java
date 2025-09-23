@@ -21,6 +21,8 @@ import org.springframework.util.backoff.FixedBackOff;
 @EnableKafka
 public class KafkaConsumerConfig {
 
+    // REHACTOR TIME!!!! WE HAVE TO CHANGE THIS INTO A WHOLE ASS JDK 25 SWITCH
+
 
 
     @Bean
